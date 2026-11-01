@@ -1,0 +1,13 @@
+{
+  "name": "morya",
+  "version": "1.0.0",
+  "description": "1. Create a new Google Sheet. Open Extensions > Apps Script. 2. Paste `apps-script/Code.gs`. Change `TOKEN` to your own secret. 3. Run `doPost` once manually is not needed; instead: Deploy > New deployment > Web app,    Execute as **Me**, Access **Anyone**. Authorise Drive + Sheets when asked. Copy the `/exec` URL.    (After any code change, use Deploy > Manage deployments > Edit > New version.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
